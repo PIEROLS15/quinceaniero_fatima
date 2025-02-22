@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         primary:"#ccb13b",
+        melon:"#fff3ec",
       },
     },
   },
