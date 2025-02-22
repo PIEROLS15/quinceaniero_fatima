@@ -1,0 +1,50 @@
+import Image from "next/image";
+
+const BorderLayout = () => {
+    return (
+        <div className="relative">
+            
+            {/* Esquina superior izquierda */}
+            <Image
+                src="/images/esquina_1.svg"
+                alt="Esquina superior izquierda"
+                width={680}
+                height={680}
+                priority
+                className="fixed top-0 left-0"
+            />
+
+            {/* Esquina superior derecha */}
+            <Image
+                src="/images/esquina_2.svg"
+                alt="Esquina superior derecha"
+                width={680}
+                height={680}
+                priority
+                className="fixed top-0 right-0"
+            />
+
+            {/* Esquina inferior izquierda */}
+            <Image
+                src="/images/esquina_3.svg"
+                alt="Esquina inferior izquierda"
+                width={680}
+                height={680}
+                priority
+                className="fixed bottom-0 left-0"
+            />
+
+            {/* Esquina inferior derecha */}
+            <Image
+                src="/images/esquina_4.svg"
+                alt="Esquina inferior derecha"
+                width={680}
+                height={680}
+                priority
+                className="fixed bottom-0 right-0"
+            />
+        </div>
+    );
+};
+
+export default BorderLayout;
