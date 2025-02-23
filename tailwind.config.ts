@@ -9,9 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:"#ccb13b",
-        melon:"#fff3ec",
+        primary: "#ccb13b",
+        melon: "#fff3ec",
       },
+      fontFamily: {
+        Tangerine: ["Tangerine", "cursive"]
+      }
     },
   },
   plugins: [],

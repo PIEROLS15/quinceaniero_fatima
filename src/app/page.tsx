@@ -2,6 +2,7 @@ import BorderLayout from "@/components/borderLayout";
 import Name from "@/components/name";
 import MusicPlayer from "@/components/musicPlayer";
 import Temporizador from "@/components/temporizador";
+import FirstThanks from "@/components/firstThanks";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           songTitle="Ven Baila Quinceañera"
           artist="Nicole Pilman"
         />
+        <FirstThanks />
       </main>
     </>
   );
