@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Tangerine:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,7 +19,5 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-montserrat-sans), sans-serif;
 }

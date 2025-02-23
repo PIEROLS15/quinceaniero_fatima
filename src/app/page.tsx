@@ -3,6 +3,7 @@ import Name from "@/components/name";
 import MusicPlayer from "@/components/musicPlayer";
 import Temporizador from "@/components/temporizador";
 import FirstThanks from "@/components/firstThanks";
+import Parents from "@/components/parents";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
           artist="Nicole Pilman"
         />
         <FirstThanks />
+        <Parents />
       </main>
     </>
   );

@@ -13,7 +13,9 @@ export default {
         melon: "#fff3ec",
       },
       fontFamily: {
-        Tangerine: ["Tangerine", "cursive"]
+        Tangerine: ["Tangerine", "cursive"],
+        Cookie: ["Cookie", "cursive"],
+        Dancing: ["Dancing Script", "cursive"],
       }
     },
   },
