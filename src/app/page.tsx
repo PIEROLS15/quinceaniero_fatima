@@ -4,6 +4,7 @@ import MusicPlayer from "@/components/musicPlayer";
 import Temporizador from "@/components/temporizador";
 import FirstThanks from "@/components/firstThanks";
 import Parents from "@/components/parents";
+import Date from "@/components/date";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
         />
         <FirstThanks />
         <Parents />
+        <Date />
       </main>
     </>
   );
