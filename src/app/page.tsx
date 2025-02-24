@@ -8,6 +8,7 @@ import Date from "@/components/date";
 import SeconThanks from "@/components/secondThanks";
 import Reception from "@/components/reception";
 import Assistance from "@/components/assistance";
+import DressCode from "@/components/dressCode";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <SeconThanks />
         <Reception />
         <Assistance />
+        <DressCode />
       </main>
     </>
   );
