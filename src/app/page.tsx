@@ -9,6 +9,7 @@ import SeconThanks from "@/components/secondThanks";
 import Reception from "@/components/reception";
 import Assistance from "@/components/assistance";
 import DressCode from "@/components/dressCode";
+import Dedication from "@/components/dedication";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <Reception />
         <Assistance />
         <DressCode />
+        <Dedication/>
       </main>
     </>
   );
