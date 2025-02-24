@@ -7,7 +7,7 @@ const FirstThanks = () => {
             <div className="max-w-4xl mx-auto flex flex-col items-center justify-center">
                 <div className="mb-6 md:mb-8 flex justify-center">
                     <Image
-                        src="/images/banda_xv.webp"
+                        src="/images/banda_xv.svg"
                         alt="Corona"
                         width={600}
                         height={380}
@@ -15,7 +15,7 @@ const FirstThanks = () => {
                         className="hidden sm:block"
                     />
                     <Image
-                        src="/images/banda_xv.webp"
+                        src="/images/banda_xv.svg"
                         alt="Corona"
                         width={250}
                         height={380}
