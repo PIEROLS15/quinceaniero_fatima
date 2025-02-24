@@ -6,6 +6,7 @@ import FirstThanks from "@/components/firstThanks";
 import Parents from "@/components/parents";
 import Date from "@/components/date";
 import SeconThanks from "@/components/secondThanks";
+import Reception from "@/components/reception";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Parents />
         <Date />
         <SeconThanks />
+        <Reception />
       </main>
     </>
   );
