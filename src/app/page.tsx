@@ -7,6 +7,7 @@ import Parents from "@/components/parents";
 import Date from "@/components/date";
 import SeconThanks from "@/components/secondThanks";
 import Reception from "@/components/reception";
+import Assistance from "@/components/assistance";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Date />
         <SeconThanks />
         <Reception />
+        <Assistance />
       </main>
     </>
   );
