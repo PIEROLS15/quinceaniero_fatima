@@ -4,19 +4,19 @@ import Data from '@/data/data';
 const Parents = () => {
     return (
         <section className="py-6 px-4 text-center space-y-8">
-            <div className="mb-8">
+            <div className="flex justify-center items-center">
                 <Image
                     src="/images/corona_1.svg"
                     alt="Corona"
-                    width={600}
+                    width={100}
                     height={380}
                     priority
-                    className="hidden sm:block"
+                    className=""
                 />
             </div>
             <header>
                 <h2 className="text-4xl text-primary font-Dancing font-black">
-                    Con la compañia de
+                    Con la compañía de
                 </h2>
             </header>
             <div className="space-y-8 max-w-2xl mx-auto">
