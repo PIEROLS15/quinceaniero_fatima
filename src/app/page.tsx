@@ -7,7 +7,6 @@ import Parents from "@/components/parents";
 import Date from "@/components/date";
 import SeconThanks from "@/components/secondThanks";
 
-
 export default function Home() {
   return (
 

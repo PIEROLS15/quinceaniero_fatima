@@ -3,7 +3,7 @@ import Image from "next/image";
 const BorderLayout = () => {
     return (
         <div className="relative">
-            
+
             {/* Esquina superior izquierda */}
             <Image
                 src="/images/esquina_1.svg"
@@ -11,7 +11,7 @@ const BorderLayout = () => {
                 width={650}
                 height={650}
                 priority
-                className="fixed top-0 left-0"
+                className="fixed top-0 left-0 z-[-1]"
             />
 
             {/* Esquina superior derecha */}
@@ -21,7 +21,7 @@ const BorderLayout = () => {
                 width={650}
                 height={650}
                 priority
-                className="fixed top-0 right-0"
+                className="fixed top-0 right-0 z-[-1]"
             />
 
             {/* Esquina inferior izquierda */}
@@ -31,7 +31,7 @@ const BorderLayout = () => {
                 width={650}
                 height={650}
                 priority
-                className="fixed bottom-0 left-0"
+                className="fixed bottom-0 left-0 z-[-1]"
             />
 
             {/* Esquina inferior derecha */}
@@ -41,7 +41,7 @@ const BorderLayout = () => {
                 width={650}
                 height={650}
                 priority
-                className="fixed bottom-0 right-0"
+                className="fixed bottom-0 right-0 z-[-1]"
             />
         </div>
     );
