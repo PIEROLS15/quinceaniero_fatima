@@ -11,6 +11,7 @@ import Assistance from "@/components/assistance";
 import DressCode from "@/components/dressCode";
 import Dedication from "@/components/dedication";
 import Farewell from "@/components/farewell";
+import Carousel from "@/components/carousel";
 
 export default function Home() {
 
@@ -30,7 +31,7 @@ export default function Home() {
         <Parents />
         <Date />
         <SeconThanks />
-
+        <Carousel />
         <Reception />
         <Assistance />
         <DressCode />

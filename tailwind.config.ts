@@ -13,6 +13,7 @@ export default {
         melon: "#fff3ec",
       },
       fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
         Tangerine: ["Tangerine", "cursive"],
         Cookie: ["Cookie", "cursive"],
         Dancing: ["Dancing Script", "cursive"],
