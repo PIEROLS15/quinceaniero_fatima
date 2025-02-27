@@ -11,8 +11,16 @@ import Assistance from "@/components/assistance";
 import DressCode from "@/components/dressCode";
 import Dedication from "@/components/dedication";
 import Farewell from "@/components/farewell";
+import Carousel from "@/components/carousel";
 
 export default function Home() {
+
+  const images = [
+    '/images/foto_1.jpeg',
+    '/images/foto_2.jpeg',
+    '/images/foto_3.jpeg'
+  ]
+
   return (
 
     <>
@@ -29,6 +37,7 @@ export default function Home() {
         <Parents />
         <Date />
         <SeconThanks />
+        <Carousel images={images}/>
         <Reception />
         <Assistance />
         <DressCode />

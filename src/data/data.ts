@@ -26,7 +26,7 @@ const Data = {
     "direccion": "Referencia: El pino - Grifo Primax",
     "ubicacion": "https://www.google.com/maps/place/12%C2%B039'37.1%22S+76%C2%B038'20.5%22W/@-12.6603056,-76.6416027,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-12.6603056!4d-76.6390278?entry=ttu&g_ep=EgoyMDI1MDIxOS4xIKXMDSoASAFQAw%3D%3D",
     "asistencia": "La pista de baile está lista, ¡Solo falta tu confirmación! Por favor confirma tu asistencia hasta el 06 de marzo del 2025",
-    "confirmar": "https://forms.gle/1J1J1J1J1J1J1J1J"
+    "confirmar": "https://wa.me/51956905124?text=Hola%20Carmen,%20gracias%20por%20la%20invitaci%C3%B3n%20a%20los%20XV%20a%C3%B1os.%20Confirmo%20mi%20asistencia.%20Mi%20nombre%20es:%20"
 }
 
 export default Data;
