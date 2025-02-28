@@ -14,7 +14,7 @@ const Name = () => {
             />
 
             <Image
-                src="/images/logo_nombre.svg"
+                src="/images/fatima.svg"
                 alt="Nombre"
                 width={580}
                 height={380}
@@ -33,7 +33,7 @@ const Name = () => {
             />
 
             <Image
-                src="/images/logo_nombre.svg"
+                src="/images/fatima.svg"
                 alt="Nombre"
                 width={300}
                 height={380}
