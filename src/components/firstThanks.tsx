@@ -23,9 +23,15 @@ const FirstThanks = () => {
                         className="sm:block md:hidden"
                     />
                 </div>
-                <h2 className="text-pink font-Tangerine text-3xl md:text-4xl lg:text-5xl font-bold px-2 leading-tight">
-                    {Data.primer_agradecimiento}
-                </h2>
+                <div className="relative">
+                    <h2 className="absolute top-0 left-0 text-black font-Tangerine text-3xl md:text-4xl lg:text-5xl font-extrabold px-2 leading-tight opacity-40">
+                        {Data.primer_agradecimiento}
+                    </h2>
+                    <h2 className="text-pink font-Tangerine text-3xl md:text-4xl lg:text-5xl font-extrabold px-2 leading-tight">
+                        {Data.primer_agradecimiento}
+                    </h2>
+                </div>
+
                 <div className="mt-11 mb-6 md:mb-8 flex justify-center">
                     <Image
                         src="/images/logo_nombre_2.svg"

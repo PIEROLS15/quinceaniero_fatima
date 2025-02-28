@@ -13,14 +13,21 @@ const Name = () => {
                 className="absolute top-[-150px] sm:top-[-240px] hidden sm:block"
             />
 
-            <Image
-                src="/images/fatima.svg"
-                alt="Nombre"
-                width={580}
-                height={380}
-                priority
-                className="hidden sm:block"
-            />
+            <div className="flex flex-col items-center">
+                <h2 className="first-letter:font-fleur first-letter:text-[100px] sm:first-letter:text-[300px] font-Dancing text-[80px] sm:text-[200px] text-primary leading-none">
+                    Fátima
+                </h2>
+                <Image
+                    src="/images/fatima.svg"
+                    alt="Nombre"
+                    width={580}
+                    height={380}
+                    priority
+                    className="hidden sm:block -mt-12"
+                />
+            </div>
+
+
 
             {/* Diseño para pantallas pequeñas */}
             <Image

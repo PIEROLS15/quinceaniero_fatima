@@ -1,6 +1,6 @@
 const Farewell = () => {
     return (
-        <section className="text-4xl text-center font-Dancing font-black leading-tight text-primary mt-24 mb-24">
+        <section className="text-4xl text-center font-Dancing font-black leading-tight text-primary mt-1 mb-24">
             ¡Los esperamos!
         </section>
     );

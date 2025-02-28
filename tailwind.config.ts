@@ -18,6 +18,8 @@ export default {
         Tangerine: ["Tangerine", "cursive"],
         Cookie: ["Cookie", "cursive"],
         Dancing: ["Dancing Script", "cursive"],
+        fleur: ['"Fleur De Leah"', 'cursive'],
+        greatvibes: ['"Great Vibes"', 'cursive'],
       }
     },
   },

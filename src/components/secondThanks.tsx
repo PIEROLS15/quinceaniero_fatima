@@ -16,9 +16,15 @@ const SeconThanks = () => {
                     />
                 </div>
 
-                <h2 className="text-pink font-Tangerine text-3xl md:text-4xl lg:text-5xl font-semibold px-2 leading-tight">
-                    {Data.segundo_agradecimiento}
-                </h2>
+                <div className="relative">
+                    <h2 className="absolute top-0 left-0 text-black font-Tangerine text-3xl md:text-4xl lg:text-5xl font-extrabold px-2 leading-tight opacity-40">
+                        {Data.segundo_agradecimiento}
+                    </h2>
+                    <h2 className="text-pink font-Tangerine text-3xl md:text-4xl lg:text-5xl font-semibold px-2 leading-tight">
+                        {Data.segundo_agradecimiento}
+                    </h2>
+                </div>
+
 
                 <div className="mt-6 md:mt-8">
                     <Image
