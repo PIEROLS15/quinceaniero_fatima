@@ -23,10 +23,10 @@ const FirstThanks = () => {
                         className="sm:block md:hidden"
                     />
                 </div>
-                <h2 className="text-primary font-Tangerine text-3xl md:text-4xl lg:text-5xl font-bold px-2 leading-tight">
+                <h2 className="text-pink font-Tangerine text-3xl md:text-4xl lg:text-5xl font-bold px-2 leading-tight">
                     {Data.primer_agradecimiento}
                 </h2>
-                <div className="mb-6 md:mb-8 flex justify-center">
+                <div className="mt-11 mb-6 md:mb-8 flex justify-center">
                     <Image
                         src="/images/logo_nombre_2.svg"
                         alt="Corona"

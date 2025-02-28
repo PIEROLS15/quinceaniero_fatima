@@ -42,7 +42,7 @@ const Parents = () => {
             </div>
 
             <footer className="mt-12">
-                <p className="uppercase tracking-wide text-sm font-semibold text-gray-700">
+                <p className="uppercase tracking-wide text-sm font-semibold text-pink">
                     {Data.invitacion}
                 </p>
             </footer>

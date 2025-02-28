@@ -8,11 +8,11 @@ const Assistance = () => {
             <section className="py-12 px-4 md:py-16 text-center">
                 <div className="max-w-4xl mx-auto space-y-10 md:space-y-12">
                     <div className="flex justify-center mb-10 md:mb-12">
-                        <FaWhatsapp className="w-24 h-24 text-primary" />
+                        <FaWhatsapp className="w-24 h-24 text-pink" />
                     </div>
 
                     <header className="space-y-6">
-                        <h2 className="text-4xl md:text-5xl lg:text-6xl text-primary font-Dancing font-black leading-tight">
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl text-pink font-Dancing font-black leading-tight">
                             Asistencia
                         </h2>
                     </header>

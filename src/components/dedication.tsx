@@ -21,7 +21,7 @@ const Dedication = () => {
                     />
                 </div>
 
-                <h2 className="text-primary font-Tangerine text-3xl md:text-4xl lg:text-5xl font-semibold px-2 leading-tight">
+                <h2 className="text-pink font-Tangerine text-3xl md:text-4xl lg:text-5xl font-semibold px-2 leading-tight">
                     {Data.dedicatoria}
                 </h2>
 

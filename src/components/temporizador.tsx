@@ -56,7 +56,7 @@ const Temporizador: React.FC = () => {
             aria-live="polite"
         >
             <article className="rounded-xl md:rounded-3xl p-4 md:p-6 lg:p-8 transition-all duration-300">
-                <h2 className="text-center mb-2 md:mb-3 font-semibold text-xl sm:text-xl md:text-2xl text-primary uppercase tracking-wider">
+                <h2 className="text-center mb-2 md:mb-3 font-semibold text-xl sm:text-xl md:text-2xl text-pink uppercase tracking-wider">
                     Faltan
                 </h2>
                 <div className="flex flex-wrap justify-center gap-3 sm:gap-3 md:gap-4 lg:gap-6">
@@ -88,13 +88,13 @@ const UnidadTiempoComponent: React.FC<UnidadTiempoProps> = ({ value, label, isLa
             }`}
     >
         <span
-            className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary"
+            className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-pink"
             aria-hidden="true"
         >
             {String(value).padStart(2, '0')}
         </span>
         <span
-            className="text-sm xs:text-xs sm:text-sm md:text-base font-medium text-primary mt-1 md:mt-2 tracking-wide"
+            className="text-sm xs:text-xs sm:text-sm md:text-base font-medium text-pink mt-1 md:mt-2 tracking-wide"
             aria-label={`${value} ${label}`}
         >
             {label}

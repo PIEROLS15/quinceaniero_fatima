@@ -10,7 +10,7 @@ const Data = {
     },
     "padrinos": {
         "padrino": "David Joan Tataje Mendoza",
-        "madrina": "Jenny Marina Hernández"
+        "madrina": "Jenny Marina Hernández Pantigoso"
     },
     "saludo": "Con la bendición de Dios y el amor que mis padres me han dado, me siento feliz de llegar a este momento de mi vida, el día que dejaré mi infancia y comenzaré un nuevo viaje con muchas metas por cumplir",
     "invitacion": "Mi mayor deseo es compartir con las personas que han estado para mí. Tú eres una de ellas.",

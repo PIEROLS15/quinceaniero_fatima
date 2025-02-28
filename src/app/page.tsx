@@ -11,7 +11,7 @@ import Assistance from "@/components/assistance";
 import DressCode from "@/components/dressCode";
 import Dedication from "@/components/dedication";
 import Farewell from "@/components/farewell";
-import Carousel from "@/components/carousel";
+import Photoframe from "@/components/ui/photoFrame";
 
 export default function Home() {
 
@@ -27,14 +27,17 @@ export default function Home() {
           songTitle="Ven Baila Quinceañera"
           artist="Nicole Pilman"
         />
+        <Photoframe image="/images/foto_1.jpeg" />
         <FirstThanks />
+        <Photoframe image="/images/foto_2.jpeg" />
         <Parents />
         <Date />
         <SeconThanks />
-        <Carousel />
+        <Photoframe image="/images/foto_3.jpg" />
         <Reception />
         <Assistance />
         <DressCode />
+        <Photoframe image="/images/foto_4.jpg" />
         <Dedication />
         <Farewell />
       </main>

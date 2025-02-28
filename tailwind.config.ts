@@ -11,6 +11,7 @@ export default {
       colors: {
         primary: "#ccb13b",
         melon: "#fff3ec",
+        pink: "#cf8da0"
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
